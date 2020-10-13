@@ -26,7 +26,7 @@
 	Version:		1.0
 	Author:			Leon Evans
 	Creation Date: 	13/10/2020
-	Location:		<repo URL for the script>
+	Location:		https://github.com/Guyver1wales/Get-AllLogonTypes
 	Change Log:
 	v1.0
 	Original Version
