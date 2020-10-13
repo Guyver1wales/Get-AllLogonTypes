@@ -1,10 +1,18 @@
 #requires -version 7
 <#
 .SYNOPSIS
-	<synopsis>
+	Get-AllLogonTypes.ps1
+	Gets all account logon types for an entire domain.
 
 .DESCRIPTION
-	<Brief description of script>
+	This script queries every domain server and parses info from all 4624 Successful Logon events.
+	It takes that info and stores it a individual csv files for each server.
+	It then imports each csv and merges all the data into single csv file that can be used to assess and audit
+	your User Rights Assignments for our entire domain.
+
+	This is useful when you havent taken over old, legacy domains with excessive legacy user account and
+	no documentation for User Rights Assignments such as 'Log on as a batch job' and
+	'Log on as a service'.
 
 
 
