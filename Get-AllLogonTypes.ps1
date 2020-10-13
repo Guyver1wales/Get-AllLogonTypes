@@ -10,7 +10,7 @@
 	It then imports each csv and merges all the data into single csv file that can be used to assess and audit
 	your User Rights Assignments for our entire domain.
 
-	This is useful when you havent taken over old, legacy domains with excessive legacy user account and
+	This is useful when you have taken over old, legacy domains with excessive legacy user accounts and
 	no documentation for User Rights Assignments such as 'Log on as a batch job' and
 	'Log on as a service'.
 
